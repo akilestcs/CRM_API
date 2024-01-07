@@ -64,3 +64,16 @@ murugarajkannan@Murugarajs-MacBook-Air kane % curl -X GET "https://crm-odata-v1-
     }
   ]
 }%                                       
+
+
+
+
+press dgg - this will remove everything from cursor to the beginning
+press dG - this will remove all the lines from cursor till the end of the doc.
+But why?
+
+gg - goes to the begin of the document
+G - navigates at its very end
+d - delete mode
+
+
