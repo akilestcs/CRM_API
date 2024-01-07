@@ -45,6 +45,12 @@ curl --request GET --url 'https://api.hubapi.com/engagements/v1/engagements/4045
 curl --request GET --url 'https://api.hubapi.com/crm/v3/objects/calls/40455064407' --header 'authorization: Bearer pat-na1-e9a33c5c-9c33-437a-8513-f083797ecf07'
 {"id":"40455064407","properties":{"hs_createdate":"2023-09-27T01:11:35.855Z","hs_lastmodifieddate":"2023-09-27T01:11:44.325Z","hs_object_id":"40455064407"},"createdAt":"2023-09-27T01:11:35.855Z","updatedAt":"2023-09-27T01:11:44.325Z","archived":false}%
 
+Excel
+char(10)
+concatenate
+
+perl
+jq
 
 
 Document GET 
