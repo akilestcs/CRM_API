@@ -77,3 +77,7 @@ G - navigates at its very end
 d - delete mode
 
 
+control M
+perl -p -e 's/\r//g' file > new_file
+sed -e "s/\r//g" file > newfile
+also, check dos2unix
