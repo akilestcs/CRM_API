@@ -81,3 +81,10 @@ control M
 perl -p -e 's/\r//g' file > new_file
 sed -e "s/\r//g" file > newfile
 also, check dos2unix
+
+Excel:
+=CONCATENATE("Call Title: ",A3935,CHAR(10),"Call Details: ",B3935,CHAR(10))
+
+https://www.convertcsv.com/csv-to-json.htm
+
+
