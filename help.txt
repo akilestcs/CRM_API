@@ -87,4 +87,11 @@ Excel:
 
 https://www.convertcsv.com/csv-to-json.htm
 
+feff - BOM
+set nobomb
+MAC os - sed
+sed $'1s/\xef\xbb\xbf//' < orig.txt > new.txt
+
+
+
 
